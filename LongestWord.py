@@ -1,5 +1,4 @@
 import re
-highV = "" # o(1)
 def LongestWord(sen):
   #use RegEx to remove all special characters from string 
   newString = re.sub('[^a-zA-Z0-9 \n\.]', '', sen) # 0(n)
